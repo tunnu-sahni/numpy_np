@@ -258,3 +258,54 @@ arr2 = np.array([6,7,8])
 newarr = np.absolute(arr1 , arr2)
 
 print(newarr)
+
+
+import numpy as np
+arr1 = ([1,2,3,4,5])
+arr2 = ([6,7,8,9,0])
+
+newarr =np.add(arr1, arr2)
+
+print(newarr)
+
+arr1 = np.array([1,2,3])
+arr2 = np.array([4,5,6])
+
+newarr = np.add(arr1, arr2)
+print(newarr)
+
+
+arr3 = np.array([22,33,44,55])
+arr4 = np.array([55,66,77,88])
+
+newarr = np.add(arr3, arr4)
+
+print(newarr)
+
+
+
+arr1 = np.array([1,2,3])
+arr2 = np.array([4,5,6])
+newarr = np.subtract(arr2, arr1)
+print(newarr)
+
+
+
+arr1 = np.array([2,3,4])
+arr2 = np.array([5,6,7])
+
+newarr = np.subtract(arr1,arr2)
+print(newarr)
+
+
+arr1 = np.array([3,4])
+arr2 = np.array([4,5])
+newarr = np.multiply(arr1, arr2)
+print(newarr)
+
+
+
+arr2 = np.array([4,5])
+arr3 = np.array([5,6])
+newarr = np.divide(arr2,arr3)
+print(newarr)
